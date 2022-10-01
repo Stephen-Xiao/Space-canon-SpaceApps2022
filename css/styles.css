@@ -30,11 +30,39 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 15px 0 65px;
     outline: none;
     border: none;
     border-radius: 6px;
     font-size: 16px;
     font-weight: 400;
     color: #333;
+}
+
+.input-box .search {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    border-radius: 6px 0 0 6px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search .search-icon {
+    font-size: 30px;
+    color: #4070f4;
+}
+
+.input-box .close-icon {
+    position: absolute;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 30px;
+    color: #fff;
 }
